@@ -16,7 +16,7 @@ return(
 <span className="tag">2023 – 2027</span>
 </div>
 <p>Coimbatore Institute of Technology</p>
-<p className="muted">CGPA: 8.41 • Coimbatore</p>
+<p className="muted">CGPA: 8.43 • Coimbatore</p>
 </div>
 
 <div className="card">

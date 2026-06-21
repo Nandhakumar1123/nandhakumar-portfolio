@@ -2,9 +2,11 @@ import React from "react";
 import profilePhoto from "./nk.jpeg";
 
 function Home(){
+  const resumeUrl = `${process.env.PUBLIC_URL}/Nandhakumar_resume.pdf`;
+
   const handleResumeDownload = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
+    link.href = resumeUrl;
     link.download = 'Nandhakumar_D_Resume.pdf';
     document.body.appendChild(link);
     link.click();
